@@ -1,0 +1,86 @@
+.banner {
+    height: 50vh;
+    position: relative;
+    background: url('./assets/banner.jpg') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 36px;
+    width: 360px;
+    opacity: 80%;
+}
+
+.banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    counter-reset: #ff7779;
+}
+
+
+
+.banner__info > h5 {
+    margin-top: 10px;
+}
+
+.banner__menu {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 10px;
+    border-bottom: 1px solid lightgray ;
+    padding: 0 30px;
+    
+    
+    
+    
+}
+
+.banner__button-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+}
+
+.banner__menu-button {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #222222 !important;
+    border: none !important;
+    
+}
+
+.banner__menu-button:hover {
+    background-color: rgb(236, 236, 236) !important;
+    
+}
+
+.banner__search {
+    flex: 0 0 auto;
+}
+
+.banner__search-button {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #222222 !important;
+    border-radius: 20px !important;
+}
+
+

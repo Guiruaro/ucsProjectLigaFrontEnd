@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.App {
+  font-family: 'Roboto';
+  background: url('./assets/background.jpg') no-repeat;  
+  background-attachment: fixed;
+  background-size: 1900px 500px;
+  background-position: bottom;
+  background-attachment: fixed;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  
+}
